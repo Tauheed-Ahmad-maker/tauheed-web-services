@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tauheed Web Services | Professional Websites</title>
+
+<meta name="description" content="Tauheed Web Services provides professional website development, portfolio websites, landing pages and website maintenance.">
+
+<meta name="author" content="Tauheed Web Services">
+
+<meta name="keywords" content="web development, website design, portfolio website, landing page, web developer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+
+    <div class="logo">
+        Tauheed Web Services
+    </div>
+
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+</nav>
+
+<section class="hero" id="home">
+    <h1>Build Your Business Online</h1>
+
+    <p>
+        I create simple and professional websites for businesses.
+    </p>
+
+    <a href="#contact" class="hero-button">Get Started</a>
+
+</section>
+
+<section class="services" id="services">
+    <h2>My Services</h2>
+
+    <div class="service"
+    onclick="showService('Website Development')">
+        <h3>Website Development</h3>
+        <p>I create simple and professional websites.</p>
+    </div>
+
+    <div class="service"
+    onclick="showService('Responsive Design')">
+        <h3>Responsive Design</h3>
+        <p>I design websites that work well on different screen sizes.</p>
+    </div>
+
+    <div class="service"
+    onclick="showService('Website Maintenance')">
+        <h3>Website Maintenance</h3>
+        <p>I help maintain and update websites.</p>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h2>About Me</h2>
+    <h3>Beginner Web Developer</h3>
+
+    <p>
+        My name is Tauheed. I am a BS Computer Science student
+        and beginner web developer.
+    </p>
+
+    <p>
+        I create simple and professional websites for businesses
+        and individuals.
+    </p>
+
+</section>
+
+<section class="portfolio" id="portfolio">
+
+    <h2>My Projects</h2>
+
+    <p class="portfolio-description">
+        Here are some of my website development projects.
+    </p>
+
+    <div class="project-container">
+
+        <div class="project"
+        onclick="showProject('Business Website')">
+            <div class="project-icon">💻</div>
+            <h3>Business Website</h3>
+            <p>A professional website for a small business.</p>
+            <span>HTML | CSS</span>
+        </div>
+
+        <div class="project"
+        onclick="showProject('Personal Portfolio')">
+            <div class="project-icon">👨‍💻</div>
+            <h3>Personal Portfolio</h3>
+            <p>A personal website to showcase skills and projects.</p>
+            <span>HTML | CSS</span>
+        </div>
+
+        <div class="project"
+        onclick="showProject('Landing Page')">
+            <div class="project-icon">🌐</div>
+            <h3>Landing Page</h3>
+            <p>A clean landing page for promoting services.</p>
+            <span>HTML | CSS</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="skills" id="skills">
+
+    <h2>My Skills</h2>
+
+    <p>Technologies I use to build websites.</p>
+
+    <div class="skill-container">
+
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>Website Structure</p>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Website Styling</p>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Basic Interactivity</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2>Have a Project in Mind?</h2>
+
+    <p>Let's work together and build something great.</p>
+
+    <a href="#contact" class="cta-button">Let's Talk</a>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>If you need a website, feel free to contact me.</p>
+
+    <form id="contact-form">
+
+         <input type="text" placeholder="Your Name" required>
+
+         <input type="email" placeholder="Your Email" required>
+
+         <textarea placeholder="Your Message" required></textarea>
+
+         <button type="submit">Send Message</button>
+
+    </form>
+    <p id="form-message"></p>
+
+</section>
+
+<footer>
+
+    <p>Building simple, professional websites for businesses and individuals.</p>
+    <p>&copy; 2026 Tauheed Web Services. All rights reserved.</p>
+    <div class="social-links">
+
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+
+    <a href="https://github.com/" target="_blank">GitHub</a>
+
+    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+
+</div>
+
+</footer>
+
+    <header>
+        <h1>Tauheed Web Services</h1>
+        <p>Professional Website Development Services</p>
+    </header>
+
+
+    <button id="back-to-top">↑ Back to Top</button>
+    <!-- PROJECT DETAILS POPUP -->
+
+<div id="project-modal" class="project-modal">
+
+    <div class="project-modal-content">
+
+        <button id="close-modal" class="close-modal">&times;</button>
+
+        <div class="project-icon">💻</div>
+
+        <h2 id="modal-title">Project</h2>
+
+        <p id="modal-description">
+            Project description will appear here.
+        </p>
+
+        <div class="project-info">
+
+            <h3>Technologies</h3>
+
+            <div id="modal-technologies" class="technologies">
+            </div>
+
+        </div>
+
+        <a href="#contact" id="modal-contact" class="modal-contact-button">
+            Contact Me
+        </a>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>

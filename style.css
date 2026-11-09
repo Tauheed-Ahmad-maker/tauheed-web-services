@@ -1,0 +1,1175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+nav {
+    background-color: #111827;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+.hero {
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #555;
+}
+
+.hero button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #1d4ed8;
+}
+.services {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 45px;
+    color: #111827;
+}
+
+.service {
+    background-color: white;
+    padding: 35px 25px;
+    margin: 10px;
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.service h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+.about {
+    background-color: #f9fafb;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #111827;
+}
+
+.about h3 {
+    font-size: 21px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 750px;
+    margin: 12px auto;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #1d4ed8;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.contact button {
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.service {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.portfolio-description {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.project-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.project {
+    background-color: white;
+    width: 280px;
+    min-height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 20px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.project h3 {
+    color: #111827;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.project p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.project span {
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.project-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #1d4ed8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: #60a5fa;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-links a {
+    transition: color 0.3s ease;
+}
+
+button {
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+.skills {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.skills h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.skills > p {
+    color: #555;
+    margin-bottom: 35px;
+}
+
+.skill-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.skill {
+    display: inline-block;
+    width: 220px;
+    padding: 25px;
+    margin: 10px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.skill h3 {
+    color: #2563eb;
+    font-size: 23px;
+}
+
+.skill p {
+    color: #555;
+}
+
+.cta {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.cta h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 17px;
+    color: #d1d5db;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #1d4ed8;
+}
+
+/* GENERAL WEBSITE DESIGN */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* SECTION SPACING */
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* SECTION HEADINGS */
+
+section h2 {
+    font-size: 34px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    color: #64748b;
+}
+
+/* SERVICE, PORTFOLIO AND SKILLS CARDS */
+
+.service,
+.project,
+.skill {
+    background-color: white;
+    padding: 30px 25px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+    vertical-align: top;
+}
+
+/* CARD HOVER EFFECT */
+
+.service:hover,
+.project:hover,
+.skill:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ALL BUTTONS */
+
+button,
+.hero-button,
+.cta-button {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* CONTACT FORM */
+
+input,
+textarea {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* PROFESSIONAL HERO SECTION */
+
+.hero {
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #111827;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #475569;
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 15px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
+}
+
+.hero-button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+/* SERVICES SECTION */
+
+#services {
+    background-color: #ffffff;
+    padding: 90px 20px;
+}
+
+#services h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+#services .service {
+    display: inline-block;
+    width: 280px;
+    min-height: 210px;
+    margin: 18px;
+    padding: 30px 25px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    vertical-align: top;
+    transition: all 0.3s ease;
+}
+
+#services .service h3 {
+    color: #2563eb;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+#services .service p {
+    color: #64748b;
+    font-size: 15px;
+}
+
+#services .service:hover {
+    background-color: #eff6ff;
+    border-color: #2563eb;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ABOUT SECTION */
+
+#about {
+    background-color: #f1f5f9;
+    padding: 90px 20px;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 750px;
+    margin: 0 auto 18px;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #475569;
+}
+
+/* ABOUT TEXT HIGHLIGHT */
+
+#about strong {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio {
+    background-color: #ffffff;
+    padding: 90px 20px;
+}
+
+#portfolio h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+#portfolio .project {
+    display: inline-block;
+    width: 280px;
+    min-height: 230px;
+    margin: 18px;
+    padding: 30px 25px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    vertical-align: top;
+    transition: all 0.3s ease;
+}
+
+#portfolio .project h3 {
+    font-size: 21px;
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+#portfolio .project p {
+    font-size: 15px;
+    color: #64748b;
+}
+
+#portfolio .project:hover {
+    transform: translateY(-8px);
+    border-color: #2563eb;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* SKILLS SECTION */
+
+#skills {
+    background-color: #f1f5f9;
+    padding: 90px 20px;
+}
+
+#skills h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 25px;
+}
+
+#skills .skill {
+    display: inline-block;
+    width: 220px;
+    min-height: 120px;
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    vertical-align: top;
+    transition: all 0.3s ease;
+}
+
+#skills .skill h3 {
+    color: #2563eb;
+    font-size: 22px;
+}
+
+#skills .skill:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-color: #2563eb;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    background-color: #ffffff;
+    padding: 90px 20px;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 550px;
+    margin: 30px auto 0;
+}
+
+#contact input,
+#contact textarea {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#contact textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+#contact button {
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contact button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* CTA SECTION */
+
+.cta {
+    background: linear-gradient(135deg, #111827, #1e3a8a);
+    padding: 85px 20px;
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    color: white;
+    font-size: 36px;
+}
+
+.cta p {
+    color: #dbeafe;
+    font-size: 18px;
+}
+
+
+/* NAVIGATION IMPROVEMENT */
+
+nav {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.nav-links a {
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+
+/* FOOTER IMPROVEMENT */
+
+footer {
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 40px 20px;
+    line-height: 1.8;
+}
+
+footer a {
+    color: #93c5fd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* GENERAL BUTTON ANIMATION */
+
+button:hover,
+.hero-button:hover,
+.cta-button:hover {
+    transform: translateY(-3px);
+}
+
+
+/* TEXT SELECTION */
+
+::selection {
+    background-color: #2563eb;
+    color: white;
+}
+
+
+/* IMAGE DEFAULT SETTINGS */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* SMOOTH PAGE SCROLL */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BACK TO TOP BUTTON */
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#back-to-top:hover {
+    background-color: #1d4ed8;
+}
+
+/* NAVIGATION LINK EFFECT */
+
+.nav-links a {
+    position: relative;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #60a5fa;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* CLICKABLE SERVICE CARDS */
+
+#services .service {
+    cursor: pointer;
+}
+
+#services .service::before {
+    content: "Click to learn more";
+    display: block;
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#services .service:hover::before {
+    opacity: 1;
+}
+
+#services .service:active {
+    transform: scale(0.97);
+}
+
+/* CLICKABLE PORTFOLIO CARDS */
+
+#portfolio .project {
+    cursor: pointer;
+}
+
+#portfolio .project:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+#portfolio .project:active {
+    transform: scale(0.97);
+}
+
+/* SKILLS HOVER EFFECT */
+
+#skills .skill {
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+#skills .skill:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+/* PROJECT MODAL */
+
+.project-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(15, 23, 42, 0.75);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.project-modal-content h2 {
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.project-modal-content p {
+    color: #64748b;
+    line-height: 1.8;
+}
+
+.close-modal {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: #64748b;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: #ef4444;
+}
+
+/* PROJECT MODAL ANIMATION */
+
+.project-modal-content {
+    animation: modalOpen 0.3s ease;
+}
+
+@keyframes modalOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* PROFESSIONAL PROJECT POPUP */
+
+.project-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(15, 23, 42, 0.78);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 45px 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+    animation: modalOpen 0.3s ease;
+}
+
+@keyframes modalOpen {
+
+    from {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+}
+
+.project-icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.project-modal-content h2 {
+    font-size: 30px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.project-modal-content p {
+    color: #64748b;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.project-info {
+    margin: 25px 0;
+}
+
+.project-info h3 {
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.technologies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech {
+    background-color: #eff6ff;
+    color: #2563eb;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.modal-contact-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.modal-contact-button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+.close-modal {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: #64748b;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: #ef4444;
+}
+
+/* CONTACT FORM SUCCESS MESSAGE */
+
+#form-message {
+    display: none;
+    max-width: 550px;
+    margin: 20px auto 0;
+    padding: 14px 20px;
+    background-color: #ecfdf5;
+    color: #047857;
+    border: 1px solid #a7f3d0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* FINAL WEBSITE POLISH */
+
+/* CONSISTENT HEADINGS */
+
+section h2 {
+    letter-spacing: -0.5px;
+}
+
+/* BETTER BUTTONS */
+
+.hero-button,
+.cta-button,
+#contact button,
+.modal-contact-button {
+    transition: all 0.3s ease;
+}
+
+.hero-button:hover,
+.cta-button:hover,
+#contact button:hover,
+.modal-contact-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+/* CARD SMOOTHNESS */
+
+.service,
+.project,
+.skill {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+/* FOOTER LINKS */
+
+footer a {
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    transform: translateY(-2px);
+}
+
+/* FORM FOCUS EFFECT */
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* CTA BUTTON */
+
+.cta-button {
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
+}
+
+/* PROJECT CARDS */
+
+#portfolio .project {
+    cursor: pointer;
+}
+
+/* SERVICE CARDS */
+
+#services .service {
+    cursor: pointer;
+}
